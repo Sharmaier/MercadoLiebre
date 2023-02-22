@@ -16,6 +16,8 @@ app.get ("/productos", function(req, resp){
     resp.send ("Novidades em breve");
 })
 
-app.listen (3000, function(){
-    console.log ("Servidor escuchando en el puerto 3000 uwu");
+const port = process.env.PORT || 3000;
+
+app.listen (port, function(){
+    console.log ("Servidor escuchando en el puerto " + port);
 })
