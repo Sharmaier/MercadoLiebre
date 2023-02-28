@@ -257,6 +257,12 @@ footer p {
     .img-producto{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
+    .articulos {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: space-around; 
+        padding: 0 1rem; 
+      }
     .info-art{
     display: block;
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
@@ -268,4 +274,10 @@ footer p {
 }
 
 /* Computadora */
-@media (min-width: 769px){}
+@media (min-width: 769px){
+    .articulos {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        justify-content: space-around;
+        padding: 0 1rem;
+    }}
