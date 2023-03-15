@@ -135,65 +135,25 @@ nav li {margin: 0 5px;}
     width: 45%;
     list-style: none;
 }
-#banner{
-    width: 100%;
-}
+
 /* Main */
 main{
     background-color: var(--grisClaro);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 20px;
 }
-
-.fas.fa-truck{
-    display: block;
-    font-size: 16px;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #39b54a;
-    background-color: #FFF;
-    border-radius: 50%;
-    }
-.info-art{
-    display: flex;
-    flex-wrap: nowrap;
-}
-.titulos-main{
-    text-align: left;
-    font-size: 24px;
-}
-.main-art{
-    border: 1px solid var(--grisClaro);
-    background-color: white;
-    margin-top: 10px;
-    padding: 15px;
-}
-.precios{
-    font-weight: bold;
-    font-size: 18px;
-    margin-bottom: 0%;
-    margin-top: 0%;
-    margin-right: 5px;
-}
-.descuentos{
-    color: var(--verde);
-    margin-top: 0%;
-    font-size: 16px;
-}
-.descripciones{
-    display: none;
-    font-size: 16px;
+input{
     color: var(--grisOscuro);
+    margin-bottom: 2rem;
+}
+#enviar{
+    background-color: var(--celeste);
+    padding: 3px 65px;
 }
 
-.img-producto{
-    width: 100%;
-    box-shadow: 0 2px 3px -1px rgb(0 0 0 / 10%);
-
-}
 /* Footer */
 
 footer {
@@ -255,30 +215,4 @@ footer p {
     .burger-menu{
         display: none;
     }
-    .img-producto{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
-    .articulos {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        justify-content: space-around; 
-        padding: 0 1rem; 
-      }
-    .info-art{
-    display: block;
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
-    .descripciones{
-        display: block;
-    }
-   
 }
-
-/* Computadora */
-@media (min-width: 769px){
-    .articulos {
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
-        justify-content: space-around;
-        padding: 0 1rem;
-    }}
